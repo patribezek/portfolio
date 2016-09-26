@@ -1,5 +1,5 @@
 body {
-	
+	background-color: #fff;
 }
 
 .navbar-nav {
@@ -11,3 +11,11 @@ body {
 	margin: 40px auto;
 }
 
+span {
+	background-color: pink;
+	padding: 10px;
+	border-radius: 3px;
+}
+li {
+	list-style: none;
+}
