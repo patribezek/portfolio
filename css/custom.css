@@ -1,8 +1,12 @@
 body {
 	background-color: #fff;
 	font-family: 'Dosis', sans-serif;
+	color: #4a4a4a;
 }
 
+.row {
+	    margin-top: 30px;
+}
 .navbar-nav {
 	float: right;
 }
@@ -19,5 +23,35 @@ span {
 }
 li {
 	list-style: none;
+	display: inline;
+	padding: 0 10px;
 }
 
+p {
+	margin: 0 0 10px;
+
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.me {
+
+}
+
+h2 {
+	    margin-top: 0;
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+	color: #ffc0cb;
+
+
+}
+
+img {    
+	width: 300px;
+  -webkit-filter: sepia(1);
+  filter: sepia(0.5);
+      border-radius: 4%;
+  }
