@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-inverse {
-	background-color: #50bf9e;
+	background-color: #5faad5;
 	border-color: transparent;
 	box-shadow: 0px 2px 8px #2e2e2e;
 }
@@ -33,7 +33,13 @@ body {
 	color: #fff;
 }
 
-
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding-top: 30px;
+		padding-bottom: 15px;
+		font-size: 20px;
+	}
+}
 
 /* END NAVBAR */
 
@@ -61,7 +67,8 @@ p {
 }
 
 .me {
-
+	font-size: 30px;
+	line-height: 50px;
 }
 
 h2 {
@@ -75,11 +82,15 @@ h2 {
 
 }
 
-img {    
-	width: 300px;
-	-webkit-filter: sepia(1);
-	filter: sepia(0.5);
-	border-radius: 4%;
+.crazy-photo {    
+	width: 100%;
+	padding: 0;
+	margin: -20px 0 0;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	opacity: 0.8;
 }
 
 li img {
