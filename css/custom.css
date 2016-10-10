@@ -8,6 +8,11 @@ body {
 	margin-top: 30px;
 }
 
+/*.container-fluid, .container {
+	padding-bottom: 20px;
+}*/
+
+
 /*  NAVBAR */
 .navbar-container {
 	height: 80px;
@@ -20,7 +25,7 @@ body {
 .navbar-inverse {
 	background-color: #5faad5;
 	border-color: transparent;
-	box-shadow: 0px 2px 8px #2e2e2e;
+	box-shadow: 0px 2px 8px #676767;
 }
 
 .navbar-inverse .navbar-brand {
@@ -48,7 +53,7 @@ body {
 	margin: 40px auto;
 }
 
-span {
+.tags {
 	background-color: pink;
 	padding: 10px;
 	border-radius: 3px;
@@ -67,6 +72,7 @@ p {
 }
 
 .me {
+	padding-top: 80px;
 	font-size: 30px;
 	line-height: 50px;
 }
@@ -77,15 +83,22 @@ h2 {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 12px;
-	color: #ffc0cb;
-
+	color: #fff;
+	text-align: center;
 
 }
+
+h3 {
+	text-align: center;
+	color: #fff;
+padding-bottom: 20px;
+	
+} 
 
 .crazy-photo {    
 	width: 100%;
 	padding: 0;
-	margin: -20px 0 0;
+	margin: -40px 0 0;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -96,4 +109,12 @@ h2 {
 li img {
 	width: 30px;
 
+}
+
+.dino {
+	/*background-color: rgba(99, 173, 215, 0.9);*/
+	background-color: rgba(244, 100, 124, 0.9);
+	position: absolute;
+	top: 20%;
+	width: 50%;
 }
