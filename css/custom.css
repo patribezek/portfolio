@@ -8,9 +8,7 @@ body {
 	margin-top: 30px;
 }
 
-/*.container-fluid, .container {
-	padding-bottom: 20px;
-}*/
+
 
 
 /*  NAVBAR */
@@ -23,7 +21,8 @@ body {
 }
 
 .navbar-inverse {
-	background-color: #5faad5;
+	/*background-color: #5faad5;*/
+	background-color: #83a3b4;
 	border-color: transparent;
 	box-shadow: 0px 2px 8px #676767;
 }
@@ -91,8 +90,8 @@ h2 {
 h3 {
 	text-align: center;
 	color: #fff;
-padding-bottom: 20px;
-	
+	padding-bottom: 20px;
+
 } 
 
 .crazy-photo {    
@@ -102,7 +101,7 @@ padding-bottom: 20px;
 	left: 0;
 	right: 0;
 	top: 0;
-
+	filter: grayscale(0.6);
 	opacity: 0.8;
 }
 
