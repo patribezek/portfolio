@@ -1,5 +1,5 @@
 
-
+$(function() {
 
 $(".nav-me").click(function() {
     $('html, body').animate({
@@ -17,4 +17,26 @@ $(".nav-contact").click(function() {
         scrollTop: $("#contact").offset().top
     }, 1000);
 
-})
+});
+
+
+
+ $('.dino-grow').click(function(){
+   $("#bg").attr('src',"img/02.png");
+   return false;
+ });
+
+ $('.dino-grow').click(function(){
+   $("#bg").attr('src',"img/03.png");
+   return false;
+ });
+
+ $('.dino-grow').click(function(){
+   $("#bg").attr('src',"img/04.png");
+   return false;
+ });
+
+
+
+
+});
