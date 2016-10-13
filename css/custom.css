@@ -53,9 +53,11 @@ body {
 }
 
 .tags {
-	background-color:rgba(244, 100, 124, 0.9);
+	/*background-color:rgba(244, 100, 124, 0.9);*/
+	background-color:rgba(131, 163, 180, 0.9);
 	padding: 10px;
 	border-radius: 3px;
+	color: #fff;
 }
 li {
 	list-style: none;
@@ -65,11 +67,17 @@ li {
 
 p {
 	margin: 0 0 10px;
-
 	font-size: 20px;
 	line-height: 30px;
 }
 
+.col-md-9 p {
+	margin: 0 0 40px;
+}
+
+.col-md-9 h3 {
+	font-weight: 600;
+}
 .me {
 	padding-top: 80px;
 	font-size: 30px;
@@ -119,7 +127,8 @@ li img {
 }
 
 .pics {
-	width: 100%;
+	width: 80%;
+	opacity: 0.4;
 
 }
 
@@ -135,7 +144,7 @@ li img {
 	10%, 90% {
 		transform: translate3d(-1px, 0, 0);
 	}
-	
+
 	20%, 80% {
 		transform: translate3d(2px, 0, 0);
 	}
@@ -150,4 +159,7 @@ li img {
 }
 #pandora .row {
 	padding-bottom: 30px;
+}
+#pandora {
+	padding-top: 60px;
 }
