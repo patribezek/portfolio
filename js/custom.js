@@ -22,18 +22,10 @@ $(".nav-contact").click(function() {
 
 
  $('.dino-grow').click(function(){
+ 	
    $("#bg").attr('src',"img/02.png");
    return false;
- });
 
- $('.dino-grow').click(function(){
-   $("#bg").attr('src',"img/03.png");
-   return false;
- });
-
- $('.dino-grow').click(function(){
-   $("#bg").attr('src',"img/04.png");
-   return false;
  });
 
 
