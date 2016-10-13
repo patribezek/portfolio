@@ -8,7 +8,9 @@ body {
 	margin-top: 30px;
 }
 
-
+.hide {
+	display: none;
+}
 
 
 /*  NAVBAR */
@@ -132,7 +134,10 @@ li img {
 
 }
 
-.dino-grow:hover {
+.dino-grow-1:hover,
+.dino-grow-2:hover,
+.dino-grow-3:hover,
+.dino-grow-4:hover {
 
 	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 	transform: translate3d(0, 0, 0);

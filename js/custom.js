@@ -21,13 +21,26 @@ $(".nav-contact").click(function() {
 
 
 
- $('.dino-grow').click(function(){
+ $('.dino-grow-1').click(function(){
  	
-   $("#bg").attr('src',"img/02.png");
-   return false;
+   $(this).addClass('hide');
+ $('.dino-grow-2').removeClass('hide');
 
  });
 
+ $('.dino-grow-2').click(function(){
+ 	
+   $(this).addClass('hide');
+ $('.dino-grow-3').removeClass('hide');
+
+ });
+
+ $('.dino-grow-3').click(function(){
+ 	
+   $(this).addClass('hide');
+ $('.dino-grow-4').removeClass('hide');
+
+ });
 
 
 
