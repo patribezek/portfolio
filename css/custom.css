@@ -170,19 +170,20 @@ li img {
 }
 
 .touch {
-background-color: #f4647c;
-    margin: -15px;
+	background-color: #f4647c;
+	margin: -15px;
 }
 
 .touch h2 {
-	    color: #fff;
-    font-size: 60px;
-    margin-bottom: 50px;
+	color: #fff;
+	font-size: 60px;
+	margin-bottom: 50px;
 }
 
 .touch a {
-		    color: #fff;
-    font-size: 40px;
+	color: #fff;
+	font-size: 40px;
+	padding-left: 20px;
 }
 
 .touch ul {
