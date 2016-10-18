@@ -189,3 +189,18 @@ li img {
 .touch ul {
 	margin-top: 20px;
 }
+
+.lang {
+    position: fixed;
+    z-index: 10;
+    background-color: #f4647c;
+    padding: 10px;
+    top: 160px;
+    right: 0;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.lang ul {
+	    padding-left: 0;
+}
