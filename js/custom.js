@@ -1,4 +1,6 @@
 
+$(document).ready(function(){
+
 $(function() {
 
 $(".nav-me").click(function() {
@@ -42,6 +44,22 @@ $(".nav-contact").click(function() {
 
  });
 
+});
+
+  windowsize = $(window).width();
+  if (windowsize < 768) {
+    //if the window is greater than 440px wide then turn on jScrollPane..
+     $('.crazy-photo').attr("src", "img/crazy-photo-m.png");
+  }
+
+$('.click-me').hover(function(){
+  $(this).addClass('out');
+} );
+
 
 
 });
+
+
+
+
