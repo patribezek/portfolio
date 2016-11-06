@@ -271,5 +271,16 @@ li img {
 		font-size: 30px;
 		letter-spacing: 5px;
 	}
+
+	.pics {
+		width: 50%;
+		opacity: 0.4;
+		transform: translateX(50%);
+
+	}
+
+
+
+
 }
 
