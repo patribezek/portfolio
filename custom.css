@@ -111,6 +111,7 @@ p {
 	left: 0;
 	right: 0;
 	top: 0;
+	-webkit-filter: grayscale(0.6);
 	filter: grayscale(0.6);
 	opacity: 0.8;
 }
@@ -205,6 +206,43 @@ li img {
 	padding-left: 0;
 }
 
+.click-me {
+	background: #f4647c;
+	padding: 20px 40px;
+	border-radius: 20px;
+	opacity: 0.7;
+	font-style: italic;
+	text-align: center;
+	font-size: 36px;
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	transform: translateY(150px);
+	z-index: 5;
+
+}
+
+.click-me:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 30px 0 0;
+	border-color: #f4647c transparent transparent transparent;
+	position: absolute;
+	bottom: -29px;
+	right: 100px;
+}
+
+.out {
+	-webkit-transition: opacity 1s ease-out;
+	-moz-transition: opacity 1s ease-out;
+	-ms-transition: opacity 1s ease-out;
+	-o-transition: opacity 1s ease-out;
+	transition: opacity 1s ease-out;
+	opacity: 0;
+}
+
 
 /* RESPONSIVE */
 
@@ -225,13 +263,35 @@ li img {
 	.navbar-inverse .navbar-toggle:hover {
 		background-color: #6A7F87;
 	}
+	.navbar-nav>li>a {
+		padding-top: 15px;
+	}
 
 	.crazy-photo {    
 		margin-top: -50px;
+		width: 102%;
+	}
+	.dino {
+		top: 10%;
 	}
 
 	.dino h2 {
 		font-size: 30px;
 		letter-spacing: 5px;
 	}
+	.me{
+		padding-top: 0px;
+	}
+
+	.pics {
+		width: 50%;
+		opacity: 0.4;
+		transform: translateX(50%);
+
+	}
+
+
+
+
 }
+
